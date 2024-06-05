@@ -1,13 +1,4 @@
-from sqlalchemy import (
-    create_engine,
-    MetaData,
-    Table,
-    Column,
-    String,
-    Integer,
-    select,
-    column,
-)
+from sqlalchemy import create_engine
 from llama_index.core.query_engine import NLSQLTableQueryEngine
 from llama_index.core import SQLDatabase
 from sqlalchemy import insert
